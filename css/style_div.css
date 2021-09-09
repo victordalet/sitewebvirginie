@@ -1,9 +1,3 @@
-div#bandeau 
-{
-	width:100%;
-	height:50%;
-	background-color:#000000;
-}
 div#contenu_pres 
 {
 	width:100%;
@@ -15,4 +9,23 @@ div#piedpage
 	width:100%;
 	height:40%;
 	background-color:#FFFFFF;
+}
+div#fond_galerie_decore
+{
+	width:100%;
+	height: 100%;
+	background-color: #99A3A4;
+	text-align: center;
+}
+div#galerie_decore
+{
+	width:100%;
+	height: 100%;
+	background-color: #99A3A4;
+	text-align: center;
+}
+div#contenu_pres
+{
+	float: left;
+	background-image: linear-gradient(-25deg, #616161 0%, #96B7C4 100%);
 }
