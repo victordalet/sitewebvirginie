@@ -4,7 +4,7 @@ div#contenu_pres
 	height:50%;
 	background-color:#000000;
 }
-div#piedpage 
+div.piedpage 
 {
 	width:100%;
 	height:40%;
@@ -28,4 +28,18 @@ div#contenu_pres
 {
 	float: left;
 	background-image: linear-gradient(-25deg, #616161 0%, #96B7C4 100%);
+}
+
+div#noire
+{
+	background-color: #000000;
+}
+
+div#blanc
+{
+	background-color: #FFFFFF;
+}
+div#formulaire
+{
+	
 }

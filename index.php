@@ -10,29 +10,13 @@
 	</head>
 	        
 	<body>
-		<div id="bandeau">
-			<h1 id= "logo"> 
-				VIRGINIE DUHAMEL 
-				<span id="first_element" class="btn from-left">>
-					<a href="index.php">Virginie</a>
-				</span> 
-				<span class="btn from-left">>
-					<a href="liens/galerie.php">Collage</a>
-				</span> 
-				<span class="btn from-left">>
-					<a href="liens/peinture.php">Peinture</a>
-				</span> 
-				<span class="btn from-left">>
-					<a href="liens/contacte.php">Contacte</a>
-				</span> 				
-			</h1>
-		</div>
+		<div onclick="redirect(0,1);" class="btn from-left">Virginie</div> 
+		<div onclick="redirect(1,1);" class="btn from-left">Collage</div>
+		<div onclick="redirect(2,1);" class="btn from-left">Peinture</div>
+		<div onclick="redirect(3,1);" class="btn from-left">Contact</div> 				
 		<div id="contenu_pres">
 			
 			Ceci est le contenu
-		</div>
-		<div id="piedpage">
-			Ceci est le pied de page
 		</div>
       </body>
 </html>

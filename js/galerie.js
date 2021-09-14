@@ -19,8 +19,7 @@ function defilement(sens,nb_image)
 
 function affichage(nb_image)
 {
-	var new_source = "'../images/collage/image"+nb_image+"jpg'";
-	document.getElementById("image_centre").src = new_source;
+	document.getElementById("image_centre").src = "../images/collage/image"+nb_image+"jpg";
 }
 
 function limite(nb_image)
