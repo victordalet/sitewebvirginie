@@ -40,7 +40,7 @@
 								</div>
 							</div>
 							<div class="col-xs-12">
-								<div class="btn-lrg submit-btn">Envoie</div>
+								<button class="btn-lrg submit-btn" type="submit"> Envoie </button>
 							</div>
 							<br><br>
 					</div>

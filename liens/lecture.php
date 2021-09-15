@@ -19,7 +19,7 @@
 		}
 		else // sinon on redirige vers la page de connexion
 		{
-			header('Location: connexion.php');
+			header('Location: connexion/connexion.html');
 		}
 		?>
 	</body>

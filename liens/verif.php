@@ -33,7 +33,7 @@
 	}
 	else
 	{
-		header('Location: connexion.php' );
+		header('Location: connexion/connexion.html' );
 	}
 	?>
 
