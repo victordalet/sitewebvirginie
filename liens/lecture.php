@@ -11,16 +11,18 @@
 	    <link rel="icon" type="image/png" href="../images/logo.png" /> <!-- logo à coté du titre-->
 	</head>
     <body>	
-        <?php
-		if (isset($_COOKIE["connecter"])
-		{
-		$text = file_get_contents('messagerie.json');
-		echo $text; 
-		}
-		else // sinon on redirige vers la page de connexion
-		{
-			header('Location: connexion/connexion.html');
-		}
-		?>
+    	<section style="overflow-y:scroll;">
+	        <?php
+			if (isset($_COOKIE["connecter"])
+			{
+				$text = file_get_contents('messagerie.json');
+				echo $text; 
+			}
+			else 
+			{
+				hadeer('Location: connexion/connexion.html');
+			}
+			?>
+		</section>
 	</body>
 </html>

@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html lang="fr">
       <head> 
-	      <title> GALERIE COLLAGE VIRGINIE DUHAMEL  </title> <!--le titre de la page -->
+	      <title> GALERIE VIRGINIE DUHAMEL  </title> <!--le titre de la page -->
 		<link rel="stylesheet" type="text/css" href="../css/style_div.css"> <!-- on imparte le css -->
 		<link rel="stylesheet" type="text/css" href="../css/style_image.css"> <!-- on imparte le css -->
 		<link rel="stylesheet" type="text/css" href="../css/style_police.css"> <!-- on imparte le css -->
@@ -203,6 +203,6 @@
       <footer>
       	<h2 class="footer">&copy; Copyright 2021 - Virginie Duhamel </h2>
       	<h2 class="footer"> <a href="mailto:virginesophie.duhamel@orange.fr">Webmail</a> </h2>
-      	<h2 > <a href="https://www.instagram.com/collage_peinture_dessin/"><img class="insta" src="../images/insta.png"></a></h2>
+      	<h2 > <a href="https://www.instagram.com/collage_peinture_dessin/" target="_blank"><img class="insta" src="../images/insta.png"></a></h2>
       </footer>
 </html>
