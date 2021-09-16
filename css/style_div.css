@@ -30,16 +30,12 @@ div#contenu_pres
 	background-image: linear-gradient(-25deg, #616161 0%, #96B7C4 100%);
 }
 
-div#noire
+div.center
 {
-	background-color: #000000;
+	text-align: center;
 }
 
-div#blanc
+div#galerie
 {
-	background-color: #FFFFFF;
-}
-div#formulaire
-{
-	
+	background-color: #4D4D51;
 }

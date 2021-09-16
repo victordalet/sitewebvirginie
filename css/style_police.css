@@ -10,6 +10,14 @@
   src: url("../font/norm.ttf");
 }
 
+
+h1
+{
+	color : red;
+	text-align: center;
+	font-size: 200%;
+}
+
 h1#logo
 {
 	color : white;
@@ -36,3 +44,20 @@ h1#logo
 	color: #E22C05;
 }
 
+#retour
+{
+	background-color: red;
+	color : white;
+	transition-duration: 2s;
+	border : solid red 10px;
+	border-radius: 10px;
+	font-size: 160%;
+	height: 40%;
+	margin-left: 39%;
+}
+#retour:hover
+{
+	background-color: white;
+	color : red;
+	border : solid white 10px;
+}

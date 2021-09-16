@@ -6,7 +6,7 @@ function redirect(page_number,page_name)
 	}
 	else
 	{
-		redirect_page(page_number);
+		redirect_page_2(page_number);
 	}
 }
 

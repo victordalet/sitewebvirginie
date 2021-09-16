@@ -1,0 +1,32 @@
+footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #201B23;
+    text-align: center;
+}
+
+.footer
+{
+	color : #BEC4C6;
+	font-size: 150%;
+}
+.footer:hover
+{
+	color:  white;
+	transition-duration: 2s;
+}
+
+
+.insta
+{
+	transition-duration: 2s;
+	width: 3%;
+}
+
+.insta:hover
+{
+	border : solid 2px #ffffff;
+	border-radius: 14px;
+}

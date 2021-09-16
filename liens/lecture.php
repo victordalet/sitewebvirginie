@@ -12,7 +12,7 @@
 	</head>
     <body>	
         <?php
-		if (isset($_COOKIE["connecter"])) // si connecter on affiche le texte des message sauvegardé dans un json
+		if (isset($_COOKIE["connecter"])
 		{
 		$text = file_get_contents('messagerie.json');
 		echo $text; 
