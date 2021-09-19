@@ -27,7 +27,7 @@ div#galerie_decore
 div#contenu_pres
 {
 	float: left;
-	background-image: linear-gradient(-25deg, #616161 0%, #96B7C4 100%);
+	background-color: black;
 }
 
 div.center

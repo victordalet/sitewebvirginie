@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/style_footer.css"> <!-- on imparte le css -->
 		<script src="../js/galerie.js"></script> <!-- on import le js -->
 		<script src="../js/redirection.js"></script> <!-- on import le js -->
-	      <link rel="icon" type="image/png" href="../images/logo.png" /> <!-- logo à coté du titre-->
+	      <link rel="icon" type="image/png" href="../images/collage/image1.jpg" /> <!-- logo à coté du titre-->
 	</head>
 	        
 	<body>
