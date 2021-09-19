@@ -13,15 +13,15 @@
     <body>	
     	<section style="overflow-y:scroll;">
 	        <?php
-			if (isset($_COOKIE["connecter"])
-			{
-				$text = file_get_contents('messagerie.json');
-				echo $text; 
-			}
-			else 
-			{
-				hadeer('Location: connexion/connexion.html');
-			}
+				if (isset($_COOKIE["connecter"])
+				{
+					$text = file_get_contents('messagerie.json');
+					echo $text; 
+				}
+				else 
+				{
+					header('Location: connexion/connexion.html');
+				}
 			?>
 		</section>
 	</body>

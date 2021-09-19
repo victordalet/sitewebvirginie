@@ -27,6 +27,5 @@ footer
 
 .insta:hover
 {
-	border : solid 2px #ffffff;
-	border-radius: 14px;
+	filter: invert(1);
 }
