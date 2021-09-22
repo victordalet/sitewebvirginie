@@ -10,18 +10,18 @@
   src: url("../font/norm.ttf");
 }
 
-
+/*
 h1
 {
 	color : red;
 	text-align: center;
 	font-size: 200%;
 }
-h2
+*/
+h4
 {
 	color:  white;
 	font-variant: 100%;
-	font-family: normal_font;
 }
 
 h1#logo
@@ -66,4 +66,8 @@ h1#logo
 	background-color: white;
 	color : red;
 	border : solid white 10px;
+}
+#title
+{
+	color: #E502FF;
 }

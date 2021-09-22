@@ -27,22 +27,20 @@
 			<br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image1.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image2.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" src="../images/tableau/image3.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" src="../images/tableau/image4.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image5.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image6.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image7.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image8.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image9.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" src="../images/tableau/image10.jpg"> <br><br><br>
+			<img  class="image_centre" alt="collage" src="../images/tableau/image10.bmp"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image11.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" src="../images/tableau/image12.jpg"> <br><br><br>
+			<img  class="image_centre" alt="collage" src="../images/tableau/image12.bmp"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image13.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image14.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image15.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image16.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image17.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" src="../images/tableau/image18.jpg"> <br><br><br>
+			<img  class="image_centre" alt="collage" src="../images/tableau/image18.bmp"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image19.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image20.jpg"> <br><br><br>
 			<img  class="image_centre" alt="collage" src="../images/tableau/image21.jpg"> <br><br><br>
