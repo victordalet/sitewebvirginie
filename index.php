@@ -18,8 +18,11 @@
 			<div onclick="redirect(1,1);" class="btn from-left">Collage</div> 
 			<div onclick="redirect(2,1);" class="btn from-left">Peinture</div>
 			<div onclick="redirect(3,1);" class="btn from-left">Contact</div> 	
-		</div>			
+		</div>	
 		<div id="contenu_pres">
+			<img  class="image_pres" alt="collage" src="images/pres.jpg">
+		</div>		
+		<div id="contenu_pres" >
 			<h2>
 			Virginie Duhamel a étudié à Paris 8 où elle a obtenu sa maitrise d’Histoire de l’Art.<br>
 			Elle a également suivi les ateliers des Beaux Arts et participé aux cours d’arts modernes de l’école et galerie Edouard Manet à Gennevilliers, suite à quoi elle a obtenu un atelier dans le vieux Gennevilliers.<br>
