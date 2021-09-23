@@ -54,7 +54,7 @@ h1#logo
 {
 	background-color: red;
 	color : white;
-	transition-duration: 2s;
+	transition-duration: 0.5s;
 	border : solid red 10px;
 	border-radius: 10px;
 	font-size: 160%;

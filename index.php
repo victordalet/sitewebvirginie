@@ -11,19 +11,25 @@
 		<link rel="stylesheet" type="text/css" href="css/style_footer.css"> <!-- on imparte le css -->
 		<link rel="stylesheet" type="text/css" href="css/style_bg.css"> <!-- on imparte le css -->
 		<link rel="stylesheet" type="text/css" href="css/style_text.css"> <!-- on imparte le css -->
+		<link rel="stylesheet" type="text/css" href="css/style_apparition.css"> <!-- on imparte le css -->
 		<script src="js/redirection.js"></script> <!-- on import le js -->
-	      <link rel="icon" type="image/png" href="images/collage/image1.jpg" /> <!-- logo à coté du titre-->
+	      <link rel="icon" type="image/png" href="images/collage/image11.jpg" /> <!-- logo à coté du titre-->
+          	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 	</head>
 	        
 	<body>
+    		<div class="entre active">
+        	<img src="images/collage/image11.jpg" alt="logo">
+    		</div>
+
 		<div class="align">
 			<div onclick="redirect(0,1);" class="btn from-left">Virginie</div>
 			<div onclick="redirect(1,1);" class="btn from-left">Collage</div> 
 			<div onclick="redirect(2,1);" class="btn from-left">Peinture</div>
 			<div onclick="redirect(3,1);" class="btn from-left">Contact</div> 	
-		</div>	
-		<div id="home">
-		</div>		
+		</div>
+
 		<div id="contenu_pres" >
 			<h1>Présentation</h1>
 		    	<hr>
@@ -60,5 +66,4 @@
       	<h2 class="footer"> <a href="mailto:virginesophie.duhamel@orange.fr"><img class="insta" src="images/mail.png"></a>
       	<a href="https://www.instagram.com/collage_peinture_dessin/" target="_blank"><img class="insta" src="images/insta.png"></a></h2>
       </footer>
-      <script src="///www.lescigales.org/banner/horizontal.js?v=1" where="bottom" async defer></script>
 </html>
