@@ -6,6 +6,11 @@
     border-radius: 5%;
 }
 
+.image_centre:hover
+{
+	filter: invert(1);
+}
+
 .image_pres
 {
 	width: 80%;
