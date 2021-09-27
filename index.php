@@ -27,7 +27,6 @@
 		</div>
 
 
-		<div id="diapo">
 			<ul class="slideshow">
 				<li><span></span></li>
 				<li><span></span></li>
@@ -35,7 +34,6 @@
 				<li><span></span></li>
 				<li><span></span></li>
 			</ul>
-		</div>	
 
 
 

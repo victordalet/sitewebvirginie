@@ -13,7 +13,7 @@
 		<script src="../js/redirection.js"></script> <!-- on import le js -->
 		<script type="text/javascript" src="../js/jquery.js"></script> <!-- on import le js -->
 		<script type="text/javascript" src="../js/returnOnTop.js"></script> <!-- on import le js -->
-	      <link rel="icon" type="image/png" href="../images/collage/image1.jpg" /> <!-- logo à coté du titre-->
+	      <link rel="icon" type="image/png" href="../images/collage/image11.jpg" /> <!-- logo à coté du titre-->
 	</head>
 	        
 	<body>
@@ -26,7 +26,7 @@
 						
 		<div class="center" id="galerie" >
 			<br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/ollage/image1.jpg"> <br><br><br>
+			<img  class="image_centre" alt="collage" loading="lazy" src="../images/collage/image1.jpg"> <br><br><br>
 		
 		
 			<img  class="image_centre" alt="collage" loading="lazy" src="../images/collage/image2.jpg"> <br><br><br>
