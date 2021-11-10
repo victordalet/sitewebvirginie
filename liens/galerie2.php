@@ -25,51 +25,52 @@
 						
 		<div class="center" id="galerie" >
 			<br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image1.JPG"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image2.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image5.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image6.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image7.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image8.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image9.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image10.bmp"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image11.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image12.bmp"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image13.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image14.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image15.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image16.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image17.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image18.bmp"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image19.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image20.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image21.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image22.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image23.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image24.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image25.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image26.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image27.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image28.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image29.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image30.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image31.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image32.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image33.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image34.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image35.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image36.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image37.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image38.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image39.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image40.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image41.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image42.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image43.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image44.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image45.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image46.jpg"> <br><br><br>
-			<img  class="image_centre" alt="collage" loading="lazy" src="../images/tableau/image47.jpg"> <br><br><br>	
+			<img  alt="collage" loading="lazy" src="../images/tableau/image1.JPG"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image2.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image5.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image6.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image7.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image8.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image9.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image10.bmp"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image11.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image12.bmp"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image13.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image14.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image15.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image16.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image17.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image18.bmp"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image19.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image20.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image21.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image22.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image23.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image24.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image25.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image26.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image27.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image28.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image29.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image30.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image31.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image32.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image33.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image34.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image35.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image36.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image37.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image38.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image39.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image40.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image41.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image42.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image43.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image44.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image45.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image46.jpg"> <br><br><br>
+			<img  alt="collage" loading="lazy" src="../images/tableau/image47.jpg"> <br><br><br>
+		<script type="text/javascript" src="../js/lazi.js"></script>		
 		</div>
 	</body>
       <footer>

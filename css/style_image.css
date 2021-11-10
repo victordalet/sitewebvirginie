@@ -4,6 +4,8 @@
 	height : 50%;
 	border: 3% solid #2a3cad;
     border-radius: 5%;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .image_pres
