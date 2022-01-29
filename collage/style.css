@@ -1,0 +1,38 @@
+img {
+  width : 95%;
+  height : 95%;
+  border: 3% solid #2a3cad;
+  border-radius: 5%;
+  transition: opacity 0.2s ease-in-out;
+  object-fit: scale-down;
+}
+
+/*****************/
+*,::before,::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  background: #ddd;
+}
+
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type : y mandatory;
+}
+
+.v-slider-bloc {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #333;
+  height: 100vh;
+  scroll-snap-align : center;
+}
+
+/***************/
