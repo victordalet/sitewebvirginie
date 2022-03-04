@@ -1,13 +1,8 @@
-$('.thumbnail').click(function(){
-    $('.modal-body').empty();
-    $($(this).parents('div').html()).appendTo('.modal-body');
-    $('#modal').modal({show:true});
-});
-
-$('#modal').on('show.bs.modal', function () {
-   $('.col-6,.row .thumbnail').addClass('blur');
-})
-
-$('#modal').on('hide.bs.modal', function () {
-   $('.col-6,.row .thumbnail').removeClass('blur');
-})
+document.addEventListener("click",function (e){
+   if(e.target.classList.contains("gallery-item")){
+        const src = e.target.getAttribute("src");
+        document.querySelector(".modal-img").src = src;
+        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+        myModal.show();
+   }
+ })

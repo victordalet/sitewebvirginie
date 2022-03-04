@@ -7,66 +7,384 @@
 body{
 	width: 100%;
 	height: 100vh;
-
+  background: var(--bg2);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+:root {
+  --clr : #CCF6F7;
+  --bg  : #222; 
+  --bg2 : #97F2DA;
+}
+
+/**************************PARTICULE***************************/
+
 section {
-	position: relative;
 	width: 100%;
 	height: 100vh;
 }
 
-
-
 #particles-js {
-	position: relative;
-	height: 100vh;
-	background: #fff;
-	mix-blend-mode: screen;
-}
-
-/*****************************/
-
-.wrapper {
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
   position: absolute;
-  z-index: 2;
-
+	height: 100vh;
+  width: 100%;
+	mix-blend-mode: screen;
+  z-index: 0;
 }
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/**************************BUTTON***************************/
+
 button {
   cursor: pointer;
   flex: 1;
-  padding: 25px 50px;
+  padding: 15px 50px;
   margin: 25px;
   border-radius: 999px;
-  border: 5px solid #284cff;
+  border: 5px solid #fff;
   font-family: 'VT323', monospace;
   font-size: 25px;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
   white-space: nowrap;
-  color: #284cff;
+  color: #222;
   background: transparent;
-  background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+  background: #fff;
   background-repeat: repeat-x;
   background-position: 0 -100%;
   transition: 1.5s ease;
   filter: hue-rotate(200deg);
-
 }
+
 button:hover {
   background-position: 500% 100%;
   color: #fff;
+  background: #222;
+  border: 5px solid #222;
 }
-/****************/
 
-.bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.container-button {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  background: var(--bg2);
+  position: flex;
+  height: 130px;
+}
+
+/**************************CONTAINER***************************/
+.container-gauche {
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  background: var(--clr);
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+#cr {
+  background: var(--bg);
+  color: #fff;
+  height: 200px;
+  padding: 20px;
+}
+
+#cc {
+  background: var(--bg2);
+}
+
+/**************************PRESENTATION***************************/
+
+h1{
+    font-weight: 600;
+    text-align: center;
+}
+
+.txt{
+    width: 60%;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: justify;
+    transition: all 0.3s;
+    align-items: center;
+}
+
+hr{
+    width:50px;
+    border: none;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.25);
+    margin: 0 auto;
+}
+
+
+p { 
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    padding: 10px;
+}
+
+p:first-child::first-letter{
+    color:#FE5F55;
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
+}
+
+@media screen and (max-width:600px){
+    .txt {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+/**************************CONTACTE***************************/
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif, 'arial';
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+    body {
+    background-color: #ddd;
+
+}   
+
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition-duration: 0.5s;
+    border: 0px;
+}
+
+.submit-btn:hover {
+    color: #222;
+    background: #fff;
+    border: 0px;
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+/**************************RESEAU***************************/
+ul {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+ul li:hover {
+  z-index: 10000;
+  transform: scale(0.75);
+}
+
+ul li::before{
+  content: '';
+  position: absolute;
+  inset: 30px;
+  box-shadow: 0 0 0 10px var(--clr),0 0 0 20px var(--bg),0 0 0 22px var(--clr);
+  transition: 0.5s;
+}
+
+
+ul li:hover::before {
+  inset: 0px  ;
+}
+
+ul li::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  transform: rotate(45deg);
+}
+
+ul li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
+  z-index: 10;
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+ul li:hover a {
+  font-size: 3em;
+  filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr)) drop-shadow(0 0 60px var(--clr));
+}
+
+.container-reseaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg);
+}
+
+/*************************SLIDE IN***************************/
+.title1 {
+    max-width: 900px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.title1.active1 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.title2 {
+    max-width: 900px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.title2.active2 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.title3 {
+    max-width: 900px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.title3.active3 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+/*******************MEDIA****************/
+@media screen and (max-width:600px){
+  .container-button{
+    height: 250px;
+  }
+  .bg {
+    object-fit: cover;
+  }
 }

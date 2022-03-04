@@ -4,26 +4,119 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>VIRGINIE DUHAMEL</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="index/style.css" />
 	<link rel="icon" type="image/png" href="images/collage/image11.jpg" />
 </head>
 <body>
-
+	<!------------------------------------------------------->
+	<div class="container-button">
+		<button id='b1'>VIRGINIE</button>
+		<button id='b2' onclick="document.location='collage/index.html'">GALERIE</button>
+	</div>
 	<section>
-			<div class="wrapper">
-			<button>HOME</button>
-			<button onclick="document.location='virginie/index.html'">VIRGINIE</button>
-			<button onclick="document.location='collage/index.html'">COLLAGES</button>
-			<button onclick="document.location='tableau/index.html'">PEINTURES</button>
-			<button onclick="document.location='contact/index.html'">CONTACTE</button>
-		</div>
       <img src="images/collage/image1.jpg" class="bg">
       <div id="particles-js"></div>
     </section>
+    <!------------------------------------------------------->
+    <div class="container-gauche">
+    	<div class="title title1" >
+    		<h1>Présentation:</h1>
+    	</div>
+		<div class="txt">
+	    	<hr>
+	        <p>
+		Virginie Duhamel a étudié à Paris 8 où elle a obtenu sa maitrise d’Histoire de l’Art.<br>
+		Elle a également suivi les ateliers des Beaux Arts et participé aux cours d’arts modernes de l’école et galerie Edouard Manet à Gennevilliers, suite à quoi elle a obtenu un atelier dans le vieux Gennevilliers.
+	      </p>
+	      <hr>
+	      <p>
+		Elle a participé à des concours nationaux comme celui des Arts et Métiers catégorie « Peinture » et obtenu en 2012 le premier prix, ainsi qu’en 2005, le second prix du Salon des jeunes artistes contemporains du 92.
+	      </p>
+	      <hr>
+	      <p>
+		Son travail consiste à créer des contrastes visuels, entre portraits dessinés à la mine de plomb et motifs colorés sur papier. Afin de faire ressortir son travail sur le visage, elle procède « a contrario », c’est-à-dire en attirant d’abord notre œil sur des motifs en couleurs, évoquant parfois le dessin d’enfant, pour finalement l’attirer vers des visages à priori plus en retraits, mais tout aussi présents que ses motifs, et souvent emprunts d’une forme de mélancolie, ou de réflexion tournée vers l’intériorité.
+	      </p>
+	      <hr>
+	      <p> 
+		On peut également y voir un travail sur le masque façon « commedia dell’arte », comme plusieurs personnes l’ont souligné.
+	      </p>
+	      <hr>
+	      <p>
+		Toutes ses dernières compositions sont donc des collages sur carton ou toile, l’idée étant de proposer un travail avant tout sur le motif, la couleur et le portrait, en utilisant des procédés visuels contradictoires.
+	      </p>
+	      <hr>
+	      <p>
+		Auparavant, elle peignait à l’huile sur bois, mais finalement cette technique a cédé sa place à des moyens créatifs plus rapides et plus légers, comme les crayons et les feutres, type marqueurs, sur feuilles A4 ou A3.
+	      </p>	
+      	</div>
+	</div>
+	<!------------------------------------------------------->
+	<div class="container-gauche" id='cc'>
+		<div class="title title2">
+			<h1>CONTACTEZ MOI:</h1>
+		</div>
+		<form method = "POST" id="envoie" action = "contact/envoie.php">
+				<div class="container">
+					<div class="row input-container">
+							<div class="col-xs-12">
+								<div class="styled-input wide">
+									<input type="text" name="name" required />
+									<label>Nom (Requis)</label> 
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="styled-input">
+									<input type="text" name="email" required />
+									<label>Email (Requis)</label> 
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="styled-input" style="float:right;">
+									<input type="text" name="sujet"  />
+									<label>Sujet</label> 
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="styled-input wide">
+									<textarea name="message" required></textarea>
+									<label>Message</label>
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<button class="btn-lrg submit-btn" type="submit"> Envoyer </button>
+							</div>
+							<br><br>
+					</div>
+				</div>
+		</form>
+	</div>
+	<!------------------------------------------------------->
+	<div class="container-gauche" id='cr'>
+		<div class="title title3">
+			<h1>SUIVEZ-MOI:</h1>
+		</div>
+		<div class="container-reseaux">
+			<ul>
+			<li style="--clr:#ff0000;">
+				<a href="#">
+					<i class="fa-brands fa-youtube"></i>	
+				</a>
+			</li>
+			<li style="--clr:#c32aa3;">
+				<a href="#">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</li> 	
+			</ul>
+		</div>
+		<h4>&copy; Copyright <span id="an"></span> - VIRGINIE DUHAMEL<h4>
+	</div>
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="index/particles.js"></script>
 <script src="index/script.js"></script>
 </body>

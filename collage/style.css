@@ -1,201 +1,24 @@
-body {
-  background: #020520;
-  perspective: 500px;
-  overflow-x: hidden;
+
+img {
+  max-width: 100%;
 }
-figure {
-  position: sticky;
-  top: 0;
-  display: flex;
+
+.gallery {
+  background-color: #dbddf1;
+  padding: 80px 0;
   align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
-img{
-  object-fit: cover;
-}
-
-figure:nth-child(1) img {
-  transform: scale(0.6) rotate(-12.5deg);
-}
-figure:nth-child(2) img {
-  transform: scale(0.6) rotate(-11.9deg);
-}
-figure:nth-child(3) img {
-  transform: scale(0.6) rotate(-11.3deg);
-}
-figure:nth-child(4) img {
-  transform: scale(0.6) rotate(-10.6deg);
-}
-figure:nth-child(5) img {
-  transform: scale(0.6) rotate(-10deg);
-}
-figure:nth-child(6) img {
-  transform: scale(0.6) rotate(-9.4deg);
-}
-figure:nth-child(7) img {
-  transform: scale(0.6) rotate(-8.6deg);
-}
-figure:nth-child(8) img {
-  transform: scale(0.6) rotate(-8deg);
-}
-figure:nth-child(9) img {
-  transform: scale(0.6) rotate(-7.4deg);
-}
-figure:nth-child(10) img {
-  transform: scale(0.6) rotate(-6.6deg);
-}
-figure:nth-child(11) img {
-  transform: scale(0.6) rotate(-6deg);
-}
-figure:nth-child(12) img {
-  transform: scale(0.6) rotate(-5.4deg);
-}
-figure:nth-child(13) img {
-  transform: scale(0.6) rotate(-4.6deg);
-}
-figure:nth-child(14) img {
-  transform: scale(0.6) rotate(-4deg);
-}
-figure:nth-child(15) img {
-  transform: scale(0.6) rotate(-3.4deg);
-}
-figure:nth-child(16) img {
-  transform: scale(0.6) rotate(-2.6deg);
-}
-figure:nth-child(17) img {
-  transform: scale(0.6) rotate(-2deg);
-}
-figure:nth-child(18) img {
-  transform: scale(0.6) rotate(-1.6deg);
-}
-figure:nth-child(19) img {
-  transform: scale(0.6) rotate(-1deg);
-}
-figure:nth-child(20) img {
-  transform: scale(0.6) rotate(-0.5deg);
-}
-figure:nth-child(21) img {
-  transform: scale(0.6) rotate(0deg);
-}
-figure:nth-child(22) img {
-  transform: scale(0.6) rotate(0.5deg);
-}
-figure:nth-child(23) img {
-  transform: scale(0.6) rotate(1deg);
-}
-figure:nth-child(24) img {
-  transform: scale(0.6) rotate(1.5deg);
-}
-figure:nth-child(25) img {
-  transform: scale(0.6) rotate(2deg);
-}
-figure:nth-child(26) img {
-  transform: scale(0.6) rotate(2.5deg);
-}
-figure:nth-child(27) img {
-  transform: scale(0.6) rotate(3deg);
-}
-figure:nth-child(28) img {
-  transform: scale(0.6) rotate(3.5deg);
-}
-figure:nth-child(29) img {
-  transform: scale(0.6) rotate(4deg);
-}
-figure:nth-child(30) img {
-  transform: scale(0.6) rotate(4.5deg);
-}
-figure:nth-child(31) img {
-  transform: scale(0.6) rotate(5deg);
-}
-figure:nth-child(32) img {
-  transform: scale(0.6) rotate(5.5deg);
-}
-figure:nth-child(33) img {
-  transform: scale(0.6) rotate(6deg);
-}
-figure:nth-child(34) img {
-  transform: scale(0.6) rotate(6.5deg);
-}
-figure:nth-child(35) img {
-  transform: scale(0.6) rotate(7deg);
-}
-figure:nth-child(36) img {
-  transform: scale(0.6) rotate(7.5deg);
-}
-figure:nth-child(37) img {
-  transform: scale(0.6) rotate(8deg);
-}
-figure:nth-child(38) img {
-  transform: scale(0.6) rotate(8.5deg);
-}
-figure:nth-child(39) img {
-  transform: scale(0.6) rotate(9deg);
-}
-figure:nth-child(40) img {
-  transform: scale(0.6) rotate(9.5deg);
-}
-figure:nth-child(41) img {
-  transform: scale(0.6) rotate(10deg);
-}
-figure:nth-child(42) img {
-  transform: scale(0.6) rotate(10.5deg);
-}
-figure:nth-child(43) img {
-  transform: scale(0.6) rotate(11deg);
-}
-figure:nth-child(44) img {
-  transform: scale(0.6) rotate(11.5deg);
-}
-figure:nth-child(45) img {
-  transform: scale(0.6) rotate(12deg);
-}
-figure:nth-child(46) img {
-  transform: scale(0.6) rotate(12.5deg);
-}
-figure:nth-child(47) img {
-  transform: scale(0.6) rotate(13deg);
-}
-figure:nth-child(48) img {
-  transform: scale(0.6) rotate(13.5deg);
-}
-figure:nth-child(49) img {
-  transform: scale(0.6) rotate(14deg);
-}
-figure:nth-child(50) img {
-  transform: scale(0.6) rotate(14.5deg);
-}
-figure:nth-child(51) img {
-  transform: scale(0.6) rotate(15deg);
-}
-figure:nth-child(52) img {
-  transform: scale(0.6) rotate(15.5deg);
-}
-figure:nth-child(53) img {
-  transform: scale(0.6) rotate(16deg);
-}
-figure:nth-child(54) img {
-  transform: scale(0.6) rotate(16.5deg);
-}
-figure:nth-child(55) img {
-  transform: scale(0.6) rotate(17deg);
-}
-figure:nth-child(56) img {
-  transform: scale(0.6) rotate(17.5deg);
-}
-figure:nth-child(57) img {
-  transform: scale(0.6) rotate(18deg);
-}
-
-figure img {
-  width: 100vmin;
-  height: 100vmin;
-  border-radius: 3px;
-}
-
-.container {
-  margin: 0 auto;
   text-align: center;
-  align-items: center;
+}
+
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
 }
