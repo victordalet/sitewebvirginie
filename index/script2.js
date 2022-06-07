@@ -20,7 +20,7 @@ window.addEventListener('scroll',()=>{
     slidingNewsLetters2.classList.add('active2')
   }
 
-  if(scrollTop > (scrollTop+topElementToTopViewport3).toFixed()-clientHeight*0.5){
+  if(scrollTop > (scrollTop+topElementToTopViewport3).toFixed()-clientHeight*0.8){
     slidingNewsLetters3.classList.add('active3')
   }
 })
