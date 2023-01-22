@@ -33,6 +33,6 @@ const b2 = document.querySelector("#b2");
 const TL1 = new TimelineMax({pause : true});
 
 TL1
-.from(b,1, {x: -1000, opacity : 0})
+.from(b,1, {y: -1000, opacity : 0})
 
 TL1.play()
